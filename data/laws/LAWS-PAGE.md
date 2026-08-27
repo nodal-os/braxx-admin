@@ -1,1 +1,208 @@
-COMPLETE_FILE_NEEDED_97KB
+---
+title: State Laws
+eyebrow: Legal
+slug: /laws
+hero: Off-highway electric motorcycle. Not a Class 1–3 e-bike. Not street-legal as sold.
+public: https://www.ridehavok.com/laws
+os: https://admin.ridehavok.com/laws
+last_verified: 2026-08-26
+contact: legal@havok.com
+---
+
+# State Laws
+
+**Off-highway electric motorcycle. Not a Class 1–3 e-bike. Not street-legal as sold.**
+
+HAVØK O3, O3 Pro, and X1 are sold the same way E Ride Pro, Surron, and Talaria sell this class: add to cart, ship, no plate and no motorcycle license at checkout. That is a sales practice. It is not a street-legal status.
+
+Check your state. Wear a helmet. Ride private land or designated off-highway areas. If you later want a plate, talk to your DMV or OHV office — we do not publish conversion how-tos.
+
+## Disclaimer
+
+This page is **buyer information, not legal advice**. It is not a warranty that you can ride anywhere. Statutes, agency guidance, and city rules change. Land managers and police add rules on top of state law.
+
+We verified the sources below on **August 26, 2026**. Read your state DMV and OHV office before you ride. If something here is wrong or stale, email [legal@havok.com](mailto:legal@havok.com).
+
+## What you bought
+
+| Model | Motor (peak) | Electrical | As sold |
+| --- | --- | --- | --- |
+| **O3** | 8 kW | 72V+ | Off-highway electric motorcycle. Marketed about 80 mph. No plate at purchase. |
+| **O3 Pro** | 15 kW | 72V+ | Off-highway electric motorcycle. 60+ mph. No plate at purchase. |
+| **X1** | 21 kW | 72V+ | Off-highway electric motorcycle. Marketed about 80 mph. No plate at purchase. |
+
+What that means in plain language:
+
+- **Off-highway electric motorcycle** — dirt-bike form, throttle, straddle seat, footpegs. Same product class as a Surron / Talaria / E Ride Pro, not a pedal-assist commuter.
+- **Not a Class 1–3 e-bike.** Class rights (no license, no plate, bike paths) attach only if the statute’s definition is met. These machines fail federal and state e-bike tests on pedals, wattage, and speed.
+- **Not street-legal as sold.** We do not collect a title, plate, VIN registration, motorcycle endorsement, or insurance at checkout. Buying untitled does not make public-road use legal.
+- **No registration at purchase** is how this category sells. It is not a classification.
+
+We will not call these machines e-bikes on this page.
+
+## Federal baseline
+
+A federal *low-speed electric bicycle* under [15 U.S.C. § 2085](https://uscode.house.gov/view.xhtml?req=(title:15+section:2085+edition:prelim)) / CPSC must have:
+
+1. Fully operable pedals
+2. An electric motor of **less than 750 watts**
+3. A motor-alone top speed **under 20 mph** with a 170 lb rider
+
+O3 / O3 Pro / X1 are 8–21 kW (about 10–28× the watt cap) and 60–80 mph (about 3× the speed cap), in dirt-bike form without a bicycle drivetrain. They are **not** federal low-speed electric bicycles.
+
+Federal law does **not** make them street-legal. States control road use. NHTSA treats vehicles that miss the e-bike definition as motor vehicles if they are used on public roads. Aftermarket pedal kits do not cure wattage or speed defects.
+
+## How to read the table
+
+Every row is about **this product class as sold** — not about a legal Class 1–3 e-bike.
+
+| Column | Meaning |
+| --- | --- |
+| **On public roads as sold** | Can you put a stock O3 / O3 Pro / X1 on a public street, sidewalk, or bike path and be inside the law? Almost everywhere the answer is no. |
+| **What you need to ride legally** | The realistic path: private land, a state OHV / ORV / OHM sticker, or a full motorcycle title that most stock off-road units cannot get. |
+| **Helmet / age** | What applies if the machine is treated as a motorcycle / OHV — not the Class 3 e-bike age that does not attach. |
+| **Notes** | The statute or agency hook. Seller-labeling issues are called out where they exist. |
+
+**Buy without a plate** is yes in almost every state as a retail practice. That column is omitted on purpose so it is not mistaken for a ride-anywhere right.
+
+We do not tell you how to convert, title, or “make it street legal.” Ask your state DMV or OHV office.
+
+Cities, parks, and federal land (USFS / BLM / NPS) can be stricter than the state row.
+
+## All states
+
+50 states + District of Columbia. Alphabetical.
+
+| State | On public roads as sold | What you need to ride legally | Helmet / age | Notes |
+| --- | --- | --- | --- | --- |
+| Alabama | Illegal | Private land, or a titled motorcycle with Class M. The §32-5A-267 e-bike exemption does not attach. | DOT helmet, all ages, if treated as a motorcycle. Class 3 e-bike 16+ does not apply. | Pedals + under 750 W + class caps required for e-bike status. Untitled retail sale is normal; untitled road use is not. |
+| Alaska | Gray — treated as motorcycle | Highway use needs Alaska registration and M1/M2. Off-road follows DNR / USFS / BLM rules. Anchorage’s local e-bike ordinance still requires pedals and ≤750 W. | Motorcycle helmet under 18. Anchorage bicycle helmet under 16. Use a DOT helmet. | No statewide e-bike statute (HB 8 vetoed 2023). A public-road ride is a motor-vehicle case. |
+| Arizona | Illegal | Arizona OHV decal on public motorized land, or a titled motorcycle with endorsement. Private land with permission. | Motorcycle helmet under 18. No statewide e-bike helmet. Standard MVD motorcycle age (typically 16+). | ARS 28-101: pedals + <750 W. Canal paths and city multiuse paths are not a loophole. |
+| Arkansas | Illegal | Private land or motorized OHV areas. Street use only as a titled motorcycle / motor-driven cycle. | Motorcycle helmet generally under 21. No general Class 1/2 e-bike age that legalizes this machine. | Electric Bicycle Act (pedals + <750 W). Rawrr already refuses vehicle shipments to Arkansas — peer precedent, not a HAVØK decision. |
+| California | Illegal | Green Sticker OHV ID for public OHV land, or private property under landowner control. No street plate for a stock off-highway eMoto. CHP / State Parks: originally off-highway units cannot convert to on-highway registration. | DOT FMVSS 218 helmet, all ages, as motorcycle/OHV. Highway M1 typically 16+ (permit from 15½). Youth OHV rules on public land. | CVC 436.1 eMoto (SB 586). Cite-and-tow under CVC 22651.08 (AB 875). SB 1271 makes it a crime for a seller to advertise or label this as an e-bike — a California seller duty. |
+| Colorado | Illegal | CPW OHV registration (resident card + decals) or nonresident/street-legal OHV permit for public land. Street use only as a titled motorcycle. | Motorcycle helmet under 18. Practical rule if stopped as a motorcycle: DOT helmet, all ages. CSP flagged under-16 e-moto operators in 2026. | CSP statewide warning 2026-07-15: over 750 W, over 28 mph, or no functional pedals may be reclassified as a moped or motorcycle. |
+| Connecticut | Illegal | Private land, or DMV motor-driven-cycle / motorcycle registration if the unit is actually highway-capable. Dirt bikes are written out of the e-bike definition. | All-age helmet rule is for real e-bikes, not a hall pass here. Under-21 helmet for motor-driven cycles; motorcycle helmet if a motorcycle. | C.G.S. §14-1(31) expressly excludes dirt bikes. 8–21 kW exceeds the 3,700 W motor-driven-cycle line used in CT DOT materials. |
+| Delaware | Illegal | Private land, or a titled motorcycle. Qualifying e-bike exemptions in §4198P do not attach. | Under 18 on any bicycle; all-ages helmet on Class 3 e-bikes — neither legalizes this class. DOT motorcycle helmet if a motorcycle. | Pedals + seat + ≤750 W. Motor-on-sidewalk is banned even for legal Class 2. |
+| District of Columbia | Illegal — crime on public space | Private property only. DMV will not register a dirt bike. Loading onto a trailer to leave the District or reach private property is the narrow public-space exception. | Under-16 bicycle helmet. DOT helmet if treated as a motorcycle. Dirt-bike public operation is illegal at any age. | D.C. Code §50-2201.04b: operating, parking, standing, or stopping a dirt bike on any public property is a crime; the vehicle is subject to forfeiture. |
+| Florida | Illegal | Private land or purpose-built OHV/MX facilities. Street use only as a titled motorcycle with a motorcycle endorsement — many tax collectors refuse off-road-only MCO/VIN records. Unregistered road use is a criminal violation of F.S. §320.02(1). | Motorcycle: under 21 must wear FMVSS 218; 21+ may go without only with $10,000 medical-benefits coverage; eye protection required. Do not put a minor on a 60 mph machine on a public street. | Not an e-bike and not a moped (moped ≤2 bhp / ≤30 mph). Untitled purchase is easy; untitled street riding is a criminal registration case. |
+| Georgia | Illegal | Private land, or a registered motorcycle with Class M, insurance, and motorcycle equipment. | DOT helmet, all ages, plus eye protection if a motorcycle. Class III e-bike 15+ does not apply. | DPS-34 (July 2024) is the official 750 W electric-assisted-bicycle line. Older 1,000 W web pages are stale. |
+| Hawaii | Illegal | Private property is the clean path. Street use would require motorcycle registration and insurance, which a stock off-road unit generally cannot obtain. The $30 county e-bike decal is not available in good faith. | Motorcycle helmet, all ages. Act 259 raised e-bike helmets to under 18 — that is for real e-bikes. | Act 259 (signed 2026-07-15): a two- or three-wheeler capable of exceeding 28 mph on electric power is an electric motorcycle. HPD: non-qualifying high-power devices stay off public roads, bike lanes, sidewalks, and shared-use paths. |
+| Idaho | Illegal | Idaho OHV sticker on public motorized routes, or private land. Street use only as a titled motorcycle/moped. | Motorcycle helmet under 18. OHV youth helmet rules on public land. Class 3 e-bike 15+ does not apply. | I.C. 49-106: pedals + <750 W. HB 500 (2026) is about true e-bike collision language, not a legalization of this class. |
+| Illinois | Not as an e-bike (statutory gap over 28 mph) | Private land unless you can actually title, plate, insure, and equip it as a motorcycle or motor-driven cycle. Recheck SB 3484 after 2026-08-29; any new MDC rules would start 2027-01-01. | No statewide motorcycle or e-bike helmet mandate. Eye protection required if treated as a motorcycle / MDC / moped (625 ILCS 5/11-1404). Practical motorcycle age generally 16+. | Current law does not clearly govern devices over 28 mph. Enrolled SB 3484 (to Governor 2026-06-30; 60-day deadline 2026-08-29) would, if enacted, treat 750 W–8 kW electric devices as motor-driven cycles on 2027-01-01. O3 sits on that 8 kW ceiling; O3 Pro and X1 sit above it as ordinary motorcycles. |
+| Indiana | Illegal | BMV ORV title (purchases after 2009-12-31) and ORV registration for dirt. An ORV may not be operated on a highway. Street use only as a fully street-legal motorcycle. | Motorcycle helmet under 18. Motorcycle generally 16+. Youth ORV supervision rules apply. | True electric bicycles are excluded from the ORV definition — these machines do not get that carve-out. BMV will not issue a highway plate to an ORV just because lights were added. |
+| Iowa | Illegal | Iowa DOT motorcycle title for highways. Public dirt: DNR off-road motorcycle/ATV registration under chapter 321I. | Motorcycle helmet under 18. Motorcycle generally 16+. | Iowa Code 321.1(36A): pedals + less than 750 W. Motorized bicycle is capped at 39 mph — a 60+ mph machine is a motorcycle. |
+| Kansas | Illegal | Motorcycle title, plate, endorsement, and liability insurance for any public road, or keep it on private land. | Motorcycle helmet under 18. Motorcycle generally 16+. | K.S.A. 8-1489: less than 750 W + pedals. Kansas ATV definition is 3+ tires — not an automatic sticker path for a two-wheel machine. |
+| Kentucky | Gray as statute, illegal as power/speed | Private land, or motorcycle / electric-motorcycle title, plate, insurance, and license. There is no Kentucky e-bike box to hide in. Exceeds the moped box (≤2 bhp / ≤30 mph). | Motorcycle helmet rules apply if classified as a motorcycle. No statewide e-bike age. | Weakest statewide statute in the South — that helps the rider less, not more. KRS 186.010 added electric motorcycle as of 2026-07-15. Louisville warned after a 2025–26 unregistered electric-motorcycle crash. |
+| Louisiana | Illegal | Private land, or a registered motorcycle with a motorcycle license. | Louisiana all-ages motorcycle helmet on public roads. Do not read the Class 3 age-12 rule onto a 60 mph machine. | La. R.S. 32:1: pedals + <750 W + Class 1/2/3. Untitled purchase is normal. |
+| Maine | Illegal | Private land. Qualifying e-bike exemptions (no license / plate / insurance) stop at <750 W with real pedals. | Under 16 bicycle helmet on a real e-bike. Motorcycle helmet if reclassified. Class 2/3 e-bike operator 16+ does not apply. | Tampering that lets the motor assist above class speed means the vehicle is no longer an electric bicycle (29-A M.R.S. §2063(14)(C)). |
+| Maryland | Illegal | Private land. Dirt bikes / minibikes are generally not Title-13 registerable. Over-limit devices that can meet FMVSS follow moped/motorcycle paper. | Under 16 bicycle helmet on a real e-bike. DOT helmet and eye protection if moped/motorcycle. Class 3 e-bike 16+ does not apply. | Md. Transportation Code §11-117.1: pedals + ≤750 W. Most state parks allow only Class 1 e-bikes. |
+| Massachusetts | Illegal | Private land. Massachusetts has Class 1–2 only (no Class 3). A 60+ mph machine exceeds the 25 mph moped cap and needs a motorcycle path it usually cannot complete. | DOT FMVSS 218 helmet if treated as a motorized bicycle or motorcycle. Motorized bicycle: 16+ with license/permit. | Governor Healey’s Ride Safe Act was in conference as of 2026-08-03 and is not law. E-bikes are banned from all sidewalks statewide. |
+| Michigan | Illegal | Public dirt: annual DNR ORV license plus trail permit on designated trails. Public roads: SOS assembled-vehicle title, plate, no-fault, and a motorcycle endorsement. | ORV: crash helmet and protective eyewear on public land. Motorcycle endorsement generally 16+. Class 3 e-bike 14+ does not apply. | DNR e-moto test: over 750 W, over 28 mph under motor assist, primarily throttle-powered above 20 mph, or no fully operable pedals. |
+| Minnesota | Illegal | DNR OHM registration is required for operation in Minnesota, including exclusive private-property use. Public roads need a second, street-legal motorcycle registration (dual registration). | Under 18 must wear an approved helmet on public land, frozen waters, and road rights-of-way. Motorcycle generally 16+. | Unusually strict anti-unlock statute: a product sold to run 60+ mph cannot be an e-bike even with dummy pedals. The 2026 POS e-moto registration bill failed. |
+| Mississippi | Illegal | Private land, or a titled motorcycle with license, insurance, and an all-ages helmet. | All-ages approved motorcycle helmet (Miss. Code §63-7-64) if used as a motorcycle on a road. Class 3 e-bike 16+ does not apply. | HB 1195 (2021) is still the framework: pedals + <750 W. The dirt-bike exemption in §63-3-1315 is for qualifying e-bikes, not a 21 kW machine. |
+| Missouri | Illegal | Private land, or a titled, insured motorcycle with a motorcycle-qualified license. | Motorcycle helmet under 18 (RSMo 302.020). Class 3 e-bike 16+ does not apply. | RSMo 307.194 exemptions (no title/registration/license/insurance) apply only to electric bicycles. |
+| Montana | Illegal | Private land or designated motorized routes with the land-manager OHV permit. Street use only as a titled motorcycle. | No statewide bicycle or adult motorcycle helmet. Billings has an under-16 bicycle ordinance. Use a DOT helmet. | No three-class system (SB 387 died 2025). Only test: motor cannot push a 170-lb rider past 20 mph on the flat. |
+| Nebraska | Illegal | Private land, or a registered, titled, insured motorcycle with a motorcycle endorsement and a helmet. | Universal motorcycle helmet state — operators and passengers if the device is a motorcycle. Motorcycle generally 16+. | Pedals + 750 W + 1 brake horsepower. ATV/minibike non-registration is not a street loophole (ATV is 3+ tires). |
+| Nevada | Illegal | Nevada OHV title/registration decal on public OHV land (short-term nonresident exception may apply). Street use only as a titled motorcycle. | Motorcycle helmet under 18; 18+ optional for street motorcycles. Clark County / Henderson add minor-helmet and park rules. | NRS 484B.017: pedals + ≤750 W + class speeds. The Strip and Henderson will not treat this as a bicycle. |
+| New Hampshire | Illegal | Places OHRVs are allowed, or private land. Street use only as a registered motorcycle. | Class 3 under-18 helmet is for real e-bikes. Motorcycle/OHRV helmet rules if so classified. | Must be a pedaled vehicle with a motor of less than 750 W. Exactly 750 W fails. |
+| New Jersey | Illegal | Lawful off-road / ORV areas only as a dirt bike. Street use only as a motorcycle with plates, a motorcycle license, and insurance. Dirt bikes cannot be street-registered and may only cross a highway under 39:3C-17. | USDOT helmet for motorized-bicycle and motorcycle classes. Dirt-bike / ORV operators generally 18+ where off-road use is lawful (39:3C-16). Real e-bike / motorized-bicycle floor is 15+ — that floor does not legalize this machine. | After July 19, 2026 every real e-bike needs MVC registration and a license. 8–21 kW / 60+ mph is a motorcycle (if it has real pedals) or an impoundable dirt bike (if it does not). Ridgewood and other PDs are impounding this exact class under 39:3C-35 (first-offense reclaim fee $500). |
+| New Mexico | Illegal | New Mexico OHV permit on public OHV land, or a titled motorcycle with endorsement. | Motorcycle helmet, all operators and passengers. Child Helmet Safety Act under 18 is for bicycles / qualifying e-bikes. | NMSA 66-1-4.5: pedals + ≤750 W. Albuquerque adopted the state classes — this class gets none of that access. |
+| New York | Illegal | Private land only as sold. NY DMV: dirt bikes / off-road motorcycles may not be operated on public streets, sidewalks, or parking lots and generally cannot be street-registered. A FMVSS-certified limited-use motorcycle or motorcycle with a plate and motorcycle license is the only on-road path — typical dirt-bike form cannot get that plate. | 16+ to operate any real e-bike (does not apply). Motorcycle helmet if classified as a motorcycle. AG recommends helmets for all. | NY AG consumer alert July 31, 2026: marketing or selling over-limit devices as e-bikes is unlawful. NYC DOT caps e-device operation at 15 mph citywide (effective 2025-10-24) and NYPD has been seizing illegal e-motos. Expect ticket, seizure, and in NYC possible forfeiture. |
+| North Carolina | Illegal | Private land, or a registered motorcycle if the unit is titleable. UNC SOG walks over-~30 mph straight into motorcycle: license, registration, insurance. | NC motorcycle helmet on public roads if classified as a motorcycle. Typically 16+ for motorcycle licensing. | Current single class: pedals + ≤750 W + ≤20 mph motor-only. SL 2026-46 (effective 2026-12-01) adds Class 3 but still caps 750 W — it does not legalize this class. |
+| North Dakota | Illegal | Private land, or a titled, plated, insured motorcycle with the proper license. The e-bike title exemption is e-bike-only. | Motorcycle helmet under 18. Motorcycle generally 16+. | NDCC 39-01-01(19): pedals + 750 W or fewer. A two-wheel electric dirt bike used off-highway may also be an OHV under chapter 39-29 — it is still not an e-bike. |
+| Ohio | Illegal | Private land you own or control (OHM sticker not required if used exclusively there). Public off-road land: Ohio OHM registration (title required first). Streets: full motorcycle conversion, Highway Patrol inspection, BMV plate, endorsement, insurance. | Motorcycle helmet under 18. Eye protection required. Street-legal motorcycle generally 16+ with endorsement. | Municipal pages (Beavercreek, Mason) already say e-moto / electric dirt bikes without operable pedals may not use roadways, sidewalks, or shared-use paths unless fully street-legal. |
+| Oklahoma | Illegal | Private land, or a registered motorcycle with a motorcycle endorsement. | Motorcycle helmet generally under 18. Class 3 e-bike 16+ does not apply. | Requires pedals, ≤750 W, CPSC bicycle construction, and a motor that dies when you stop pedaling — the opposite of this machine. Rawrr already refuses vehicle shipments to Oklahoma. |
+| Oregon | Illegal | Oregon ATV operating permit (Class III motorcycle) on public OHV land, or private property. Highway motorcycle/moped title is usually unavailable on stock off-road units. | Motorcycle helmet, all ages, if operated as motorcycle/moped. ATV helmet rules on public OHV land, especially for youth. 16+ for a real electric assisted bicycle — N/A here. | ORS 801.258 Class 1/2/3 (HB 4103). Moped is capped at 30 mph unassisted — these machines exceed that too. Reported 2026 HB 4007 on 'imposter' e-bike sales — confirm before citing as enacted. |
+| Pennsylvania | Illegal | Private land. Pennsylvania’s bicycle box also requires ≤100 lb, ≤750 W, ≤20 mph motor-only, and pedals — these machines fail all four. PennDOT typically cannot title units that lack a 17-digit VIN and FMVSS motorcycle equipment. | 16+ to operate a real pedalcycle with electric assist. DOT motorcycle helmet if classified as a motorcycle. No helmet for a real moped per PennDOT — these machines exceed the 25 mph moped cap anyway. | No Class 1/2/3 system. Weight alone knocks out most Sur-Ron / Talaria-class frames. |
+| Rhode Island | Illegal | Private land. The e-bike exemption is for ≤2 SAE hp and ≤28 mph. Residents must register motorcycles and non-exempt motorized bicycles. | Under 21 CPSC helmet on a real e-bike. Motorcycle helmet if classified as a motorcycle. 16+ to operate an electric motorized bicycle — N/A here. | Two overlapping definitions (class system + 2 hp / 28 mph) both exclude 8–21 kW / 60 mph. H 7789 (2026) is a bill, not law. |
+| South Carolina | Illegal | Private land. Also over the 1,500 W electric-moped cap, so motorcycle is the remaining statutory box — and stock units often cannot be plated. | Motorcycle helmet generally under 21 if classified as a motorcycle. No statewide e-bike age. | S.C. Code §56-1-10(29) is the federal CPSC box: pedals, ≤750 W, under 20 mph motor-only. Locals (Hilton Head, Charleston, Grand Strand) add path and beach rules. |
+| South Dakota | Illegal | Private land, or title, plate, insurance, and equipment as a motorcycle / motor-driven cycle. | Motorcycle helmet under 18. Class III e-bike 16+ does not apply. | Sioux Falls PD (2026, local guidance): motors over 750 W or assistance beyond 28 mph classify the vehicle as a moped; no pedals means it is not an e-bike. |
+| Tennessee | Illegal | Private land, or a registered motorcycle / motor-driven cycle with Class M and insurance. | All-ages motorcycle helmet on public roads. Class 3 e-bike 16+ (reported 2026 raise) does not apply. | T.C.A. §55-8-301: pedals + <750 W + class caps. PC 823 exemptions do not follow a hangtag. |
+| Texas | Illegal | Private land, or a current TPWD OHV decal ($16, valid Sept 1–Aug 31) at a public OHV venue. Street use only as a titled, plated, insured motorcycle with Class M — most factory off-road units lack FMVSS certification and a registerable 17-digit VIN, so that path is gray-to-closed. | If treated as a motorcycle on a public street: under 21 must wear approved headgear; 21+ may ride without if they completed an approved motorcycle course or have qualifying medical coverage. TPWD OHV land requires safety apparel. No statewide minimum for private-property riding. Motorcycle on public roads: 16 with Class M path. | Tex. Transp. Code §664.001 will never treat 8–21 kW / 60+ mph as an e-bike. Allen PD publishes tickets, parental citations, and impound for unregistered e-motorcycles. Rawrr already refuses vehicle shipments to Texas — peer precedent, not a HAVØK decision. |
+| Utah | Illegal | OHV registration sticker (or nonresident $30 permit) plus the Utah OHV Education Course (required under 18; adult course also required statewide since 2023). Street use needs motorcycle title, endorsement, and insurance. | Helmet required for operators under 18 on OHV/motorcycle; recommended all ages. Highway motorcycle: standard licensing. | One of the strictest statutes: factory-affixed cranks are mandatory, and pedal kits / peg bikes are carved out. Vehicles advertised or designed to do 20+ mph on motor alone are excluded. |
+| Vermont | Illegal | Private land. Qualifying e-bike exemptions (no license, plate, insurance, or helmet) are only for <750 W bikes with real pedals. | No statewide bicycle or e-bike helmet mandate. Motorcycle helmet if the device is a motorcycle. Class 3 e-bike 16+ does not apply. | A separate 'motor-assisted bicycle' box (under 1,000 W, throttle not over 20 mph) also does not fit 8–21 kW / 60+ mph. |
+| Virginia | Illegal | Private land. Street-legal only if titled as a motorcycle with Class M. James City County Police: electric dirt bikes without pedals, over 35 mph, are off-road motorcycles and may be impounded. | Virginia motorcycle helmet for operators and passengers if classified as a motorcycle. Motorcycle license typically 16+. | Va. Code §46.2-100: pedals + ≤750 W input. Virginia’s moped box (≤1500 W and ≤35 mph) also does not fit. |
+| Washington | Illegal | ORV permit/tab under RCW 46.09 for public off-road land. Highway use would require motorcycle or moped registration — stock off-road units usually lack the equipment/VIN path. | DOT motorcycle helmet, operator and passenger, on highways if classified as motorcycle/moped/motor-driven cycle. Motorcycle typically 16+ with endorsement; extra $250 penalty for no endorsement. | ESSB 6110 (effective 2026-06-11) expressly excludes any vehicle capable of exceeding 20 mph on the motor alone, and vehicles designed to be easily reconfigured out of class. |
+| West Virginia | Illegal | Private land, or a registered motorcycle with a license. Official §17C-11-8(c): exceed a §17C-1-70 limit and the vehicle is no longer an electric bicycle. | West Virginia motorcycle helmet on public roads if classified as a motorcycle. Under-15 helmet is a bicycle rule and does not legalize this class. | Pedals + fewer than 750 W. The private-property anti-tamper carve-out is not a highway grant. |
+| Wisconsin | Illegal | DNR public-use OHM registration ($30 / 2-year) for designated OHM trails and signed OHM road routes. Highway use needs WisDOT motorcycle title, plate, insurance, and a motorcycle license — missing VIN is a practical bar. | Under-18 motorcycle helmet is the usual statewide rule if classified as motorcycle/OHM. Motorcycle generally 16+. | WisDOT: over class speeds see moped; devices that can exceed about 30 mph are motorcycles. August 2026 local reporting: consumer products without a VIN cannot be registered and cannot legally be ridden on the road. |
+| Wyoming | Illegal | Wyoming ORV permit/sticker on public ORV land, or private land. Street use only as a titled motorcycle. | Motorcycle/ORV helmet under 18. Recommended all ages. Highway motorcycle: standard licensing. | W.S. 31-5-707 exemptions attach only if the machine is an electric bicycle under 31-1-101 (pedals + <750 W). |
+
+## Featured states
+
+California is where we build and ship. Texas, Florida, New York, New Jersey, and Illinois are the other high-volume or high-enforcement states. Read yours even if it is not on this short list.
+
+### California (CA)
+
+**Classification:** Not a Class 1/2/3 electric bicycle. If the unit has no factory pedals, handlebars, a straddle seat, two wheels, and is designed primarily off-highway, it is an 'off-highway electric motorcycle' / eMoto under CVC 436.1 (SB 586, effective 2026-01-01) and an off-highway motor vehicle under CVC 38012. It is not a moped (CVC 406: ≤30 mph / <4 ghp). Aftermarket pedals do not make it an e-bike because 8–21 kW and 60+ mph fail CVC 312.5. Highway use without a street motorcycle plate is an unregistered motor vehicle (CVC 4000).
+
+**Buy without registration:** Yes to buy and possess. Consumer sale is typically unregistered. Private-property-only use needs no OHV ID. Public-land OHV use requires DMV OHV identification (Green Sticker). SB 1271 makes it a crime for a seller to advertise or label a non-qualifying vehicle as an e-bike; that is a seller duty, not a buyer-possession crime.
+
+**Public roads as sold:** Illegal. CVC 436.1 eMotos may not be operated on highways, streets, sidewalks, bike paths, or bike lanes. CHP and CA State Parks (OHV IB 25-1) state they cannot be converted to on-highway registration if originally manufactured off-highway. On-road stop citations: CVC 4000(a)(1) unregistered vehicle, 12500(b) no M1, 16028 no insurance. CVC 22651.08 (AB 875, 2026-01-01) authorizes tow of a <4-wheel electric vehicle that is not an e-bike, can exceed 20 mph on motor alone, and is ridden by an unlicensed operator.
+
+**OHV / private land:** Designated OHV areas (SVRAs, BLM/USFS motorized routes) with Green Sticker, or private property. Not streets, sidewalks, bike lanes, or bike paths.
+
+**License:** None for legal e-bike (N/A here). On any highway: M1 motorcycle endorsement (CVC 12500(b)). OHV-only public-land riding does not require a driver license but OHV age/helmet rules apply. Parents who allow a child to operate an eMoto on a highway may be cited under CVC 14607.
+
+**Helmet / age:** DOT FMVSS 218 helmet, all ages, as motorcycle/OHV. Highway M1 typically 16+ (permit from 15½). Youth OHV rules on public land.
+
+**Seller / labeling:** SB 1271 (2024): crime to advertise, sell, or label a non-qualifying vehicle as an electric bicycle. SB 1271 battery-safety labeling (UL 2272 / related) applies to powered mobility devices sold from 2026-01-01. A factory Class/wattage e-bike label is false labeling under CVC 312.5(d). SB 1167 (labeling / seller bans) was still moving in the Assembly as of 2026-08-20 — not law as of 2026-08-26.
+
+**What this means:** A HAVØK O3/X1 is an eMoto in California, not an e-bike: get a Green Sticker and ride designated OHV land or private property only. Street, sidewalk, and bike-path riding is a cite-and-tow offense; aftermarket pedals do not change that.
+
+**Sources**
+- [California Vehicle Code § 312.5 — Electric bicycle](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=312.5)
+- [California Vehicle Code § 436.1 — Off-highway electric motorcycle (eMoto)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=436.1)
+- [California Vehicle Code § 24016 — Electric bicycle equipment; not a motor vehicle](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=24016)
+- [California Vehicle Code § 38012 — Off-highway motor vehicle (includes eMoto)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=38012)
+- [SB 1271 (2024) — Electric bicycles, powered mobility devices, and storage batteries (chaptered)](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1271)
+- [SB 586 (2025) — Off-highway electric motorcycles](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB586)
+
+### Texas (TX)
+
+**Classification:** Not an electric bicycle. Texas defines an electric bicycle as a bicycle with fully operable pedals, a motor of fewer than 750 watts, and a top assisted speed of 28 mph or less (Tex. Transp. Code §664.001). HAVØK 8–21 kW / 60+ mph dirt-bike-form throttle units fail pedals, wattage, and speed. Default on-road class is motorcycle (moped only if ≤5 bhp and ≤30 mph — these bikes do not). Off-highway: off-highway motorcycle / OHV on public OHV land.
+
+**Buy without registration:** Yes to buy untitled. No TxDMV title or plate at purchase. That sales practice does not make the machine an e-bike or street-legal. Tex. Transp. Code §502.143(4) only bars registering a true electric bicycle; it is not a loophole for 8 kW+ machines.
+
+**Public roads as sold:** Illegal as an e-bike. Legal as a motorcycle only if titled/registered, plated, insured, equipped, and ridden with a Class M license — most factory e-motos lack FMVSS certification and a registerable 17-digit VIN, so the street path is gray-to-closed. Unregistered road use is an unregistered motor vehicle. Private property: legal. Public OHV venues: legal with a current TPWD OHV decal. A 60+ mph / 8 kW+ bike can never be an e-bike in Texas.
+
+**OHV / private land:** Private land with owner permission, or designated OHV parks/trails with a TPWD decal. Not streets, sidewalks, bike lanes, or non-motorized trails.
+
+**License:** Not required if it were a §664.001 e-bike (it is not). For public-road motorcycle use: Class M (Tex. Transp. Code §521.084). No Class M needed on private land or TPWD OHV areas.
+
+**Helmet / age:** If treated as a motorcycle on a public street: under 21 must wear approved headgear; 21+ may ride without if they completed an approved motorcycle course or have qualifying medical coverage. TPWD OHV land requires safety apparel. No statewide minimum for private-property riding. Motorcycle on public roads: 16 with Class M path.
+
+**Seller / labeling:** §502.143(4) only bars registering a true electric bicycle; it is not a loophole for 8 kW+ machines. Do not merchandise this class as an e-bike in Texas.
+
+**What this means:** Texas will never treat an 8–21 kW / 60+ mph HAVØK as an e-bike, pedals or not. Buy it untitled if you want, then ride private land or a TPWD OHV park with a $16 decal — public streets without a motorcycle title, plate, insurance, and Class M is the ticket/impound path.
+
+**Sources**
+- [Tex. Transp. Code §664.001 electric bicycle definition](https://statutes.capitol.texas.gov/Docs/TN/htm/TN.664.htm#664.001)
+- [Tex. Transp. Code §664.001 mirrored text](https://texas.public.law/statutes/tex._transp._code_section_664.001)
+- [Tex. Transp. Code §502.143 — owner may not register electric bicycles](https://texas.public.law/statutes/tex._transp._code_section_502.143)
+- [Tex. Transp. Code §661.003 motorcycle helmet](https://texas.public.law/statutes/tex._transp._code_section_661.003)
+- [Texas Parks & Wildlife OHV FAQ](https://tpwd.texas.gov/state-parks/texas-off-highway-program/faqs-about-the-texas-ohv-program)
+- [TPWD Parks and Wildlife Code Ch. 29 OHV program](https://tpwd.texas.gov/state-parks/texas-off-highway-program/parks-and-wildlife-code-title-3-chapter-29-ohv-and-recreational-area-program)
+
+### Florida (FL)
+
+**Classification:** Not an electric bicycle and not a moped. FLHSMV applies F.S. §316.003(23): e-bike = fully operable pedals + seat/saddle + electric motor of less than 750 watts + Class 1/2/3 (assist cutoff 20/20/28 mph). HAVØK 8–21 kW / 60+ mph dirt-bike units fail all three gates. Moped (F.S. §320.01(27)) requires pedals, ≤2 brake horsepower, and ≤30 mph on level ground — these bikes exceed both power and speed, so they are not mopeds. Default: motorcycle under F.S. §320.01(26) (saddle, ≤3 wheels, not a tractor or moped).
+
+**Buy without registration:** Yes to buy untitled. Purchase without a plate is normal; it does not authorize road use. A 60+ mph / 8 kW+ unit can never be an e-bike in Florida, with or without bolt-on pedals, because wattage and speed still fail §316.003(23).
+
+**Public roads as sold:** Illegal as an e-bike or moped. On-road legal only as a titled/registered motorcycle with a motorcycle-endorsed license — and many off-road-coded e-motos cannot be titled because FLHSMV/tax collectors refuse off-road-only MCO/VIN records. Operating an unregistered motor vehicle on Florida roads is a criminal violation of F.S. §320.02(1), not just a parking ticket. Private property: legal. Public roads/sidewalks/bike paths: not legal in stock form.
+
+**OHV / private land:** Private property or purpose-built OHV/MX. No statewide OHV plate that legalizes street use. Not sidewalks, bike lanes, beaches, or dunes.
+
+**License:** True e-bike: none (F.S. §316.20655(2)). Motorcycle on roads: driver license that authorizes motorcycle operation (F.S. §322.03(5)) — typically Class E plus motorcycle endorsement. Moped path does not apply (power/speed too high, and pedals are not a real dirt-bike drivetrain).
+
+**Helmet / age:** Motorcycle: under 21 must wear FMVSS 218; 21+ may go without only with $10,000 medical-benefits coverage; eye protection required. Do not put a minor on a 60 mph machine on a public street.
+
+**What this means:** Florida draws three boxes — e-bike (<750W, pedals, 20/28 mph), moped (pedals, ≤2 bhp, ≤30 mph), and motorcycle — and a HAVØK is the third box, usually not even titleable at the tax collector. Untitled purchase is easy; untitled street riding is a criminal registration case.
+
+**Sources**
+- [FLHSMV motorcycle / moped / electric bicycle definitions (official)](https://www.flhsmv.gov/driver-licenses-id-cards/motorcycle-rider-education-endorsements/motorcycle-motor-scooter-moped-and-motorized-scooter/)
+- [F.S. §316.20655 Electric bicycle regulations](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399%2F0316%2FSections%2F0316.20655.html)
+- [F.S. §316.003 definitions (electric bicycle at (23))](https://www.leg.state.fl.us/STATUTES/index.cfm?App_mode=Display_Statute&URL=0300-0399%2F0316%2FSections%2F0316.003.html)
+- [F.S. §322.03 Drivers must be licensed (motorcycle endorsement)](https://www.flhouse.gov/Statutes/2025/0322.03/)
+- [Osceola County Sheriff — e-bikes, scooters, mopeds](https://www.osceolasheriff.org/understanding-e-bikes-scooters-and-mopeds/)
+- [15 U.S.C. §2085](https://uscode.house.gov/view.xhtml?req=(title:15+section:2085+edition:prelim))
