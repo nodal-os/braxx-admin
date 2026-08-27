@@ -1,4 +1,4 @@
-import { EmptyRoom } from "@/components/workspace";
+import { EmptyRoom } from "@/components/workspace/EmptyRoom";
 
 export default function LawsPage() {
   return (
