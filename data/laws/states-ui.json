@@ -1,1 +1,20 @@
-PLACEHOLDER_LOAD_FROM_FILE
+{
+  "last_verified": "2026-08-26",
+  "contact": "legal@havok.com",
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "region": "south",
+      "featured": false,
+      "roads": "Illegal",
+      "need": "Private land, or a titled motorcycle with Class M. The §32-5A-267 e-bike exemption does not attach.",
+      "helmet": "DOT helmet, all ages, if treated as a motorcycle. Class 3 e-bike 16+ does not apply.",
+      "notes": "Pedals + under 750 W + class caps required for e-bike status. Untitled retail sale is normal; untitled road use is not.",
+      "ohv": "Private property, or designated motorized OHV areas under land-manager rules.",
+      "takeaway": "Alabama’s e-bike exemption is only for pedals + under 750 W + class speed caps, so a HAVØK is a motorcycle. Untitled retail sale is normal; untitled public-road riding is not.",
+      "seller": null,
+      "ship_flag": false
+    }
+  ]
+}
