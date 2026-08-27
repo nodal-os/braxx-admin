@@ -9,7 +9,7 @@ interface StatusDotProps {
 const dotColors = {
   active: "bg-emerald-500",
   success: "bg-emerald-500",
-  inactive: "bg-zinc-300",
+  inactive: "bg-zinc-600",
   warning: "bg-amber-500",
   critical: "bg-red-500",
   pending: "bg-blue-500",

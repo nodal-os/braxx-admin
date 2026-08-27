@@ -10,7 +10,7 @@ const GRADIENTS: Record<string, string> = {
   midnight: "from-slate-900 via-blue-950/40 to-slate-900",
   ember: "from-zinc-900 via-amber-950/30 to-zinc-900",
   forest: "from-zinc-900 via-emerald-950/30 to-zinc-900",
-  violet: "from-zinc-900 via-violet-950/30 to-zinc-900",
+  violet: "from-zinc-900 via-[#E8C4A0]/10 to-zinc-900",
   rose: "from-zinc-900 via-rose-950/30 to-zinc-900",
 };
 

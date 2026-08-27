@@ -2,78 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ink — Paper night. Tokens match Nodal OS applyOsTemplate + html.dark[data-brand="nodal"]. */
 @layer base {
   :root {
-    --background: 220 14% 96%;
-    --foreground: 220 14% 10%;
-    --card: 0 0% 100%;
-    --card-foreground: 220 14% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 14% 10%;
-    --primary: 220 14% 10%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 220 10% 94%;
-    --secondary-foreground: 220 14% 10%;
-    --muted: 220 10% 94%;
-    --muted-foreground: 220 8% 46%;
-    --accent: 220 10% 92%;
-    --accent-foreground: 220 14% 10%;
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 100%;
-    --success: 160 60% 40%;
-    --success-foreground: 0 0% 100%;
-    --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 100%;
-    --border: 220 10% 89%;
-    --input: 220 10% 89%;
-    --ring: 220 14% 10%;
+    --brand-accent: #e8c4a0;
+    --os-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif;
+    --os-display: var(--font-display), "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    --os-page: #16181e;
+    --os-ink: #f4f1ec;
+    --os-glow: #e8c4a0;
+    --os-accent: #e8c4a0;
+    --paper-dot: rgba(232, 196, 160, 0.10);
+
+    --background: #16181e;
+    --foreground: #f4f1ec;
+    --card: #1c1f26;
+    --card-foreground: #f4f1ec;
+    --popover: #1c1f26;
+    --popover-foreground: #f4f1ec;
+    --primary: #e8c4a0;
+    --primary-foreground: #191e29;
+    --secondary: #22262e;
+    --secondary-foreground: #f4f1ec;
+    --muted: #22262e;
+    --muted-foreground: #a8a29e;
+    --accent: #22262e;
+    --accent-foreground: #f4f1ec;
+    --destructive: #b45454;
+    --destructive-foreground: #f4f1ec;
+    --success: #3d6b4f;
+    --success-foreground: #f4f1ec;
+    --warning: #c4925e;
+    --warning-foreground: #191e29;
+    --border: rgba(232, 196, 160, 0.14);
+    --input: rgba(232, 196, 160, 0.14);
+    --ring: #e8c4a0;
     --radius: 0.5rem;
     --command-bar-height: 48px;
     --nav-height: 44px;
     --shell-height: 92px;
-    --signal: 160 60% 40%;
-    --signal-foreground: 0 0% 100%;
+    --signal: #3d6b4f;
+    --signal-foreground: #f4f1ec;
   }
 
-  .dark {
-    --background: 220 14% 7%;
-    --foreground: 0 0% 96%;
-    --card: 220 12% 10%;
-    --card-foreground: 0 0% 96%;
-    --popover: 220 12% 10%;
-    --popover-foreground: 0 0% 96%;
-    --primary: 0 0% 96%;
-    --primary-foreground: 220 14% 7%;
-    --secondary: 220 10% 14%;
-    --secondary-foreground: 0 0% 96%;
-    --muted: 220 10% 14%;
-    --muted-foreground: 220 8% 55%;
-    --accent: 220 10% 16%;
-    --accent-foreground: 0 0% 96%;
-    --destructive: 0 62% 30%;
-    --destructive-foreground: 0 0% 98%;
-    --success: 160 60% 35%;
-    --success-foreground: 0 0% 100%;
-    --warning: 38 92% 44%;
-    --warning-foreground: 0 0% 100%;
-    --border: 220 10% 16%;
-    --input: 220 10% 16%;
-    --ring: 0 0% 96%;
-    --signal: 160 60% 35%;
-    --signal-foreground: 0 0% 100%;
-  }
-}
-
-@layer base {
   * {
     @apply border-border;
   }
+
+  html {
+    color-scheme: dark;
+    background: var(--os-page);
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
+    font-family: var(--os-sans);
     font-feature-settings: "rlig" 1, "calt" 1, "tnum" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  h1,
+  h2,
+  h3,
+  .display {
+    font-family: var(--os-display);
+    letter-spacing: -0.03em;
+  }
+}
+
+.brand-paper-field {
+  display: none;
+}
+html[data-paper="1"] .brand-paper-field {
+  display: block;
+  background-image: radial-gradient(var(--paper-dot) 1px, transparent 1px);
+  background-size: 26px 26px;
 }
 
 @layer components {
@@ -90,26 +94,27 @@
     @apply flex items-center justify-between pb-6;
   }
   .module-title {
-    @apply text-lg font-medium tracking-tight text-foreground;
+    font-family: var(--os-display);
+    @apply text-2xl tracking-tight text-foreground;
   }
   .module-subtitle {
-    @apply text-xs text-muted-foreground mt-0.5 font-mono uppercase tracking-wider;
+    @apply text-xs text-muted-foreground mt-1.5;
   }
   .chip {
-    @apply inline-flex items-center gap-1 rounded px-2 py-0.5 text-[10px] font-mono font-medium uppercase tracking-wider;
+    @apply inline-flex items-center gap-1 rounded px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider;
   }
   .chip-neutral { @apply chip bg-secondary text-secondary-foreground; }
-  .chip-primary { @apply chip bg-foreground/5 text-foreground; }
-  .chip-success { @apply chip bg-emerald-500/10 text-emerald-700; }
-  .chip-warning { @apply chip bg-amber-500/10 text-amber-700; }
-  .chip-danger { @apply chip bg-red-500/10 text-red-700; }
-  .chip-info { @apply chip bg-blue-500/10 text-blue-700; }
-  .chip-purple { @apply chip bg-violet-500/10 text-violet-700; }
+  .chip-primary { @apply chip bg-primary/15 text-primary; }
+  .chip-success { @apply chip bg-emerald-500/12 text-emerald-300; }
+  .chip-warning { @apply chip bg-amber-500/12 text-amber-200; }
+  .chip-danger { @apply chip bg-red-500/12 text-red-300; }
+  .chip-info { @apply chip bg-primary/12 text-primary; }
+  .chip-purple { @apply chip bg-primary/12 text-primary; }
   .feed-item {
     @apply flex items-start gap-3 py-3 border-b border-border last:border-0;
   }
   .content-rail { @apply space-y-1; }
-  .content-rail-label { @apply text-[10px] font-mono font-medium uppercase tracking-wider text-muted-foreground; }
+  .content-rail-label { @apply text-[10px] font-medium uppercase tracking-wider text-muted-foreground; }
   .content-rail-value { @apply text-sm font-medium text-foreground tabular-nums; }
 
   .glass-panel {
@@ -123,29 +128,26 @@
     @apply rounded-lg p-5 flex flex-col gap-1 relative overflow-hidden border border-border bg-card;
   }
 
-  /* Engineering-grade cards */
   .eng-card {
     @apply rounded-lg border border-border bg-card overflow-hidden;
   }
   .eng-card-dark {
     @apply rounded-lg border border-border overflow-hidden;
-    background: hsl(var(--muted) / 0.5);
+    background: color-mix(in srgb, var(--muted) 50%, transparent);
   }
   .eng-card-signal {
     @apply rounded-lg overflow-hidden bg-card;
-    border: 1px solid hsl(var(--signal) / 0.3);
+    border: 1px solid color-mix(in srgb, var(--signal) 30%, transparent);
   }
   .eng-card-alert {
     @apply rounded-lg overflow-hidden bg-card;
-    border: 1px solid hsl(var(--destructive) / 0.25);
+    border: 1px solid color-mix(in srgb, var(--destructive) 25%, transparent);
   }
 
-  /* Backward compat aliases */
   .bento-card { @apply eng-card; }
   .bento-card-dark { @apply eng-card-dark; }
   .bento-card-signal { @apply eng-card-signal; }
 
-  /* Colored gradient cards → replaced with monochrome variants */
   .card-gradient-violet { @apply eng-card; }
   .card-gradient-emerald { @apply eng-card; }
   .card-gradient-amber { @apply eng-card; }
@@ -153,7 +155,6 @@
   .card-gradient-rose { @apply eng-card-alert; }
   .card-gradient-pink { @apply eng-card; }
 
-  /* Ops ticker — tighter, more technical */
   .ops-ticker {
     @apply overflow-hidden whitespace-nowrap border-y border-border bg-card;
   }
@@ -169,11 +170,11 @@
 @layer utilities {
   .scrollbar-thin {
     scrollbar-width: thin;
-    scrollbar-color: hsl(var(--border)) transparent;
+    scrollbar-color: var(--border) transparent;
   }
   .scrollbar-thin::-webkit-scrollbar { width: 4px; height: 4px; }
   .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
-  .scrollbar-thin::-webkit-scrollbar-thumb { background-color: hsl(var(--border)); border-radius: 2px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background-color: var(--border); border-radius: 2px; }
   .text-balance { text-wrap: balance; }
 
   .animate-in {
@@ -206,7 +207,6 @@
     animation: ringDraw 1s ease-out both;
   }
 
-  /* Subtle scan line for live data panels */
   .scan-line {
     position: relative;
     overflow: hidden;
@@ -218,12 +218,11 @@
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, hsl(var(--signal) / 0.4), transparent);
+    background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--os-accent) 40%, transparent), transparent);
     animation: scanDown 4s ease-in-out infinite;
     pointer-events: none;
   }
 
-  /* Noop aliases — these playful classes now do nothing */
   .animate-shimmer {}
   .animate-float {}
   .animate-border-glow {}
