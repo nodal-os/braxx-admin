@@ -1,11 +1,10 @@
-import { EmptyRoom } from "@/components/workspace/EmptyRoom";
+import { LawsDesk } from "@/components/admin/LawsDesk";
+import { loadLawsCatalog } from "@/lib/laws";
 
-export default function LawsPage() {
-  return (
-    <EmptyRoom
-      kicker="HAVØK Legal"
-      title="State laws"
-      body="This room is the Command Center desk for statutes published at ridehavok.com/laws. No statute file is loaded in this admin. The public /laws route currently 404s. Empty is correct — no invented copy."
-    />
-  );
+export const dynamic = "force-dynamic";
+
+export default async function LawsPage() {
+  const catalog = await loadLawsCatalog();
+
+  return <LawsDesk catalog={catalog} />;
 }

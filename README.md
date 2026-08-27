@@ -11,7 +11,7 @@ Nodal OS **Ink** — Paper night. Paperweight inverted. Inter + Space Grotesk. C
 | Room | Route | What is live |
 |------|-------|----------------|
 | Catalog | `/catalog` | SKAEL compatibility catalog (vehicles, parts, fitment) |
-| Laws | `/laws` | HAVØK Legal desk. No statute file is loaded in this admin yet. |
+| Laws | `/laws` | Legal desk from `data/laws/states-ui.json` (51 jurisdictions, verified 2026-08-26). |
 
 Other rooms (Performance, Partners, Operations, Inventory, and the rest) stay as empty OS rooms until real data is wired.
 
