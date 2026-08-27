@@ -1,5 +1,6 @@
 export { MetricCard } from "./MetricCard";
 export { WorkspaceHeader } from "./WorkspaceHeader";
+export { EmptyRoom } from "./EmptyRoom";
 export { FeedItem } from "./FeedItem";
 export { Panel } from "./Panel";
 export { StatusDot } from "./StatusDot";

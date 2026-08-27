@@ -224,7 +224,7 @@ export function ModuleChart({
               </defs>
               <CartesianGrid
                 strokeDasharray="3 3"
-                stroke="hsl(var(--border))"
+                stroke="var(--border)"
                 vertical={false}
               />
               <XAxis
@@ -233,7 +233,7 @@ export function ModuleChart({
                 tickLine={false}
                 tick={{
                   fontSize: 10,
-                  fill: "hsl(var(--muted-foreground))",
+                  fill: "var(--muted-foreground)",
                   fontFamily: "monospace",
                 }}
               />
@@ -242,15 +242,15 @@ export function ModuleChart({
                 tickLine={false}
                 tick={{
                   fontSize: 10,
-                  fill: "hsl(var(--muted-foreground))",
+                  fill: "var(--muted-foreground)",
                   fontFamily: "monospace",
                 }}
                 tickFormatter={(v) => formatValue(v)}
               />
               <Tooltip
                 contentStyle={{
-                  background: "hsl(var(--card))",
-                  border: "1px solid hsl(var(--border))",
+                  background: "var(--card)",
+                  border: "1px solid var(--border)",
                   borderRadius: "4px",
                   fontSize: "11px",
                   fontFamily: "monospace",
@@ -273,7 +273,7 @@ export function ModuleChart({
                   activeDot={{
                     r: 3,
                     fill: s.color,
-                    stroke: "hsl(var(--card))",
+                    stroke: "var(--card)",
                     strokeWidth: 2,
                   }}
                 />
@@ -286,7 +286,7 @@ export function ModuleChart({
             >
               <CartesianGrid
                 strokeDasharray="3 3"
-                stroke="hsl(var(--border))"
+                stroke="var(--border)"
                 vertical={false}
               />
               <XAxis
@@ -295,7 +295,7 @@ export function ModuleChart({
                 tickLine={false}
                 tick={{
                   fontSize: 10,
-                  fill: "hsl(var(--muted-foreground))",
+                  fill: "var(--muted-foreground)",
                   fontFamily: "monospace",
                 }}
               />
@@ -304,15 +304,15 @@ export function ModuleChart({
                 tickLine={false}
                 tick={{
                   fontSize: 10,
-                  fill: "hsl(var(--muted-foreground))",
+                  fill: "var(--muted-foreground)",
                   fontFamily: "monospace",
                 }}
                 tickFormatter={(v) => formatValue(v)}
               />
               <Tooltip
                 contentStyle={{
-                  background: "hsl(var(--card))",
-                  border: "1px solid hsl(var(--border))",
+                  background: "var(--card)",
+                  border: "1px solid var(--border)",
                   borderRadius: "4px",
                   fontSize: "11px",
                   fontFamily: "monospace",
@@ -344,7 +344,7 @@ export function ModuleChart({
                 dataKey="value"
                 paddingAngle={2}
                 strokeWidth={1}
-                stroke="hsl(var(--card))"
+                stroke="var(--card)"
                 animationBegin={0}
                 animationDuration={400}
               >
@@ -354,8 +354,8 @@ export function ModuleChart({
               </Pie>
               <Tooltip
                 contentStyle={{
-                  background: "hsl(var(--card))",
-                  border: "1px solid hsl(var(--border))",
+                  background: "var(--card)",
+                  border: "1px solid var(--border)",
                   borderRadius: "4px",
                   fontSize: "11px",
                   fontFamily: "monospace",

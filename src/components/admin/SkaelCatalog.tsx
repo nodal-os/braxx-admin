@@ -178,14 +178,14 @@ export function SkaelCatalogView({ catalog }: { catalog: SkaelCatalog }) {
       <div className="flex items-end justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1.5">
-            <span className="inline-flex items-center rounded bg-foreground px-2 py-0.5 text-[9px] font-mono font-medium tracking-wider text-background uppercase">
+            <span className="inline-flex items-center rounded bg-primary px-2 py-0.5 text-[9px] font-medium tracking-wider text-primary-foreground uppercase">
               SKAEL
             </span>
-            <span className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">
+            <span className="text-[10px] text-muted-foreground uppercase tracking-[0.16em]">
               HAVØK Command Center
             </span>
           </div>
-          <h1 className="text-sm font-mono font-medium uppercase tracking-wider text-foreground">
+          <h1 className="display text-2xl text-foreground">
             Catalog
           </h1>
           <p className="text-xs text-muted-foreground mt-1.5 max-w-2xl">
@@ -228,7 +228,7 @@ export function SkaelCatalogView({ catalog }: { catalog: SkaelCatalog }) {
                 ? "Search bikes, brands, years…"
                 : "Search parts, brands, categories…"
             }
-            className="h-9 pl-9 text-xs font-mono"
+            className="h-9 pl-9 text-xs"
           />
         </div>
       </div>
@@ -332,8 +332,8 @@ export function SkaelCatalogView({ catalog }: { catalog: SkaelCatalog }) {
                     className={cn(
                       "text-left rounded-lg border p-4 transition-colors",
                       selectedPartId === part.part_id
-                        ? "border-foreground bg-foreground text-background"
-                        : "border-border bg-card hover:border-foreground/30"
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-border bg-card hover:border-primary/35"
                     )}
                   >
                     <div className="flex items-center justify-between gap-3 mb-2">
@@ -430,7 +430,7 @@ function ModeButton({
       onClick={onClick}
       className={cn(
         "px-3 py-1.5 rounded-md text-[10px] font-mono uppercase tracking-wider transition-colors",
-        active ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
+        active ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"
       )}
     >
       {label}
@@ -454,7 +454,7 @@ function CategoryChip({
       className={cn(
         "rounded px-2 py-1 text-[10px] font-mono uppercase tracking-wider border transition-colors",
         active
-          ? "border-foreground bg-foreground text-background"
+          ? "border-primary bg-primary text-primary-foreground"
           : "border-border bg-card text-muted-foreground hover:text-foreground"
       )}
     >
@@ -532,8 +532,8 @@ function VehicleCard({
       className={cn(
         "text-left rounded-lg border p-4 transition-colors",
         selected
-          ? "border-foreground bg-foreground text-background"
-          : "border-border bg-card hover:border-foreground/30"
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-border bg-card hover:border-primary/35"
       )}
     >
       <div className="flex items-start justify-between gap-3 mb-3">

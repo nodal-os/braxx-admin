@@ -1,26 +1,27 @@
-# BRAXX Command Center
+# HAVØK Command Center
 
-**Project Silo — Phase 2: Modular Brand Operating System**
+Internal OS at [admin.ridehavok.com](https://admin.ridehavok.com). Public site is [ridehavok.com](https://ridehavok.com). Shopify (`np11ks-vz.myshopify.com`) is checkout-only.
 
-A premium modular SaaS portal for BRAXX USA — an electric moto brand command center built as a founder-grade internal operating system.
+## Design
 
-## Design Language
+Nodal OS **Ink** — Paper night. Paperweight inverted. Inter + Space Grotesk. Copper `#E8C4A0` on page `#16181e`, ink `#f4f1ec`. Not Voltage. Not BRAXX.
 
-- Light premium interface (Notion meets Linear meets creative ops)
-- Modular panel architecture with workspace-driven layouts
-- Editorial spacing, soft shadows, high contrast typography
-- Card-driven, metric-forward, discovery-oriented
-- Violet/indigo accent system on warm neutral base
+## Real rooms
 
-## Tech Stack
+| Room | Route | What is live |
+|------|-------|----------------|
+| Catalog | `/catalog` | SKAEL compatibility catalog (vehicles, parts, fitment) |
+| Laws | `/laws` | Legal desk from `data/laws/states-ui.json` (51 jurisdictions, verified 2026-08-26). |
 
-- **Framework**: Next.js 15 (App Router, TypeScript, Turbopack)
-- **Styling**: Tailwind CSS, shadcn/ui, Lucide Icons
-- **Database**: PostgreSQL via Prisma ORM
-- **Auth**: NextAuth/Auth.js (planned)
-- **State**: Zustand, React Hook Form + Zod
+Other rooms (Performance, Partners, Operations, Inventory, and the rest) stay as empty OS rooms until real data is wired.
 
-## Getting Started
+## Stack
+
+- Next.js 15 (App Router, TypeScript)
+- Tailwind + shadcn/ui
+- PostgreSQL via Prisma (schema only — pages do not read demo rows)
+
+## Local
 
 ```bash
 npm install
@@ -31,85 +32,8 @@ npm run db:seed
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Auth is not wired. The sign-in door opens the Command Center.
 
-Default login: `marcus@braxxusa.com` / `braxx2026!`
+## Deploy
 
-## Modules
-
-| Module | Route | Purpose |
-|--------|-------|---------|
-| Performance | `/performance` | Executive KPIs, revenue trends, business intelligence |
-| Social | `/social` | Social operations, content cadence, platform overview |
-| Campaign | `/campaign` | Campaign planning, execution, linked entities |
-| Partners | `/partners` | Partner network, applications, approvals |
-| Operations | `/operations` | Internal workflows, tasks, process control |
-| Expenses | `/expenses` | Expense tracking, approvals, cost management |
-| Inventory | `/inventory` | Stock management, movement tracking, alerts |
-| Content | `/content` | Creative & media hub, asset discovery, collections |
-| App Activity | `/activity` | System-wide activity stream |
-| Settings | `/settings` | General, Users, Roles, Permissions, Notifications |
-
-## Architecture
-
-```
-src/
-├── app/
-│   ├── (admin)/              # Admin routes with sidebar layout
-│   │   ├── performance/      # Business intelligence
-│   │   ├── social/           # Social operations
-│   │   ├── campaign/         # Campaign management
-│   │   │   └── [id]/         # Campaign detail
-│   │   ├── partners/         # Partner network
-│   │   ├── operations/       # Internal ops
-│   │   ├── expenses/         # Expense tracking
-│   │   ├── inventory/        # Stock management
-│   │   │   └── [id]/         # Inventory detail
-│   │   ├── content/          # Creative hub
-│   │   ├── activity/         # Activity stream
-│   │   └── settings/         # Settings center
-│   │       ├── users/        # Team members
-│   │       ├── roles/        # Role management
-│   │       └── ...           # Other settings pages
-│   ├── (auth)/               # Auth routes
-│   └── layout.tsx            # Root layout
-├── components/
-│   ├── admin/                # Shell components (sidebar, topbar)
-│   ├── workspace/            # Shared workspace primitives
-│   │   ├── MetricCard.tsx
-│   │   ├── WorkspaceHeader.tsx
-│   │   ├── Panel.tsx
-│   │   ├── FeedItem.tsx
-│   │   └── StatusDot.tsx
-│   └── ui/                   # shadcn/ui primitives
-├── lib/
-│   ├── db.ts                 # Prisma client
-│   ├── permissions.ts        # RBAC definitions
-│   └── utils.ts              # Shared utilities
-└── prisma/
-    ├── schema.prisma         # 24 models
-    └── seed.ts               # Full seed data
-```
-
-## Data Models (24 total)
-
-**Core**: User, Role, Permission, RolePermission
-**Products**: Product, ProductAsset
-**Partners**: Dealer, DealerAsset, Application
-**Inventory**: InventoryRecord, InventoryMovement
-**Commerce**: Lead, Order
-**Content**: Asset, ContentBlock
-**Campaign**: Campaign, SocialPost, SocialAccount
-**Operations**: OperationTask, Expense
-**System**: ActivityLog, Note, Tag, RecordTag
-
-## RBAC
-
-7 roles with module-level permissions across 10 modules and 9 action types.
-
-## Future Phases
-
-- **Phase 3**: Performance HQ charts, real-time social integrations
-- **Phase 4**: Logistics HQ, Support HQ, advanced reporting
-# braxx-admin
-# braxx-admin
+Vercel project `braxx-admin` already serves `admin.ridehavok.com`. Merging to `main` is the live step. Do not invent a new host.
