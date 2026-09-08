@@ -104,12 +104,12 @@ html[data-paper="1"] .brand-paper-field {
     @apply inline-flex items-center gap-1 rounded px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider;
   }
   .chip-neutral { @apply chip bg-secondary text-secondary-foreground; }
-  .chip-primary { @apply chip bg-primary/15 text-primary; }
+  .chip-primary { @apply chip text-primary; background-color: color-mix(in srgb, var(--primary) 15%, transparent); }
   .chip-success { @apply chip bg-emerald-500/12 text-emerald-300; }
   .chip-warning { @apply chip bg-amber-500/12 text-amber-200; }
   .chip-danger { @apply chip bg-red-500/12 text-red-300; }
-  .chip-info { @apply chip bg-primary/12 text-primary; }
-  .chip-purple { @apply chip bg-primary/12 text-primary; }
+  .chip-info { @apply chip text-primary; background-color: color-mix(in srgb, var(--primary) 12%, transparent); }
+  .chip-purple { @apply chip text-primary; background-color: color-mix(in srgb, var(--primary) 12%, transparent); }
   .feed-item {
     @apply flex items-start gap-3 py-3 border-b border-border last:border-0;
   }
@@ -118,10 +118,12 @@ html[data-paper="1"] .brand-paper-field {
   .content-rail-value { @apply text-sm font-medium text-foreground tabular-nums; }
 
   .glass-panel {
-    @apply rounded-lg border border-border bg-card/80 backdrop-blur-sm p-5;
+    @apply rounded-lg border border-border backdrop-blur-sm p-5;
+    background-color: color-mix(in srgb, var(--card) 80%, transparent);
   }
   .glass-panel-flush {
-    @apply rounded-lg border border-border bg-card/80 backdrop-blur-sm overflow-hidden;
+    @apply rounded-lg border border-border backdrop-blur-sm overflow-hidden;
+    background-color: color-mix(in srgb, var(--card) 80%, transparent);
   }
 
   .metric-gradient {
