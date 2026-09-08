@@ -1,12 +1,12 @@
 {
   "name": "HAVØK Command Center",
   "user": "ubuntu",
-  "install": "bash .cursor/install.sh",
-  "start": "bash .cursor/start.sh",
+  "install": "bash -c 'for p in .cursor/install.sh repos/braxx-admin/.cursor/install.sh /agent/repos/braxx-admin/.cursor/install.sh; do [ -f \"$p\" ] && exec bash \"$p\"; done; echo \"install.sh not found from $PWD\" >&2; exit 1'",
+  "start": "bash -c 'for p in .cursor/start.sh repos/braxx-admin/.cursor/start.sh /agent/repos/braxx-admin/.cursor/start.sh; do [ -f \"$p\" ] && exec bash \"$p\"; done; echo \"start.sh not found from $PWD\" >&2; exit 1'",
   "terminals": [
     {
       "name": "dev",
-      "command": "npm run dev",
+      "command": "for d in . repos/braxx-admin /agent/repos/braxx-admin; do [ -f \"$d/package.json\" ] && cd \"$d\" && break; done; npm run dev",
       "description": "Next.js dev server (Turbopack) on http://localhost:3000"
     }
   ],
