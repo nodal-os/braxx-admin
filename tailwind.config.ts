@@ -10,6 +10,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      opacity: {
+        "2": "0.02",
+        "12": "0.12",
+        "92": "0.92",
+      },
       colors: {
         border: "var(--border)",
         input: "var(--input)",
