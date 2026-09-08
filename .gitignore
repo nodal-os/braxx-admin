@@ -41,3 +41,6 @@ next-env.d.ts
 # prisma
 .npm-cache
 config.bat
+
+# local env (contains secrets; use .env.example as template)
+.env
