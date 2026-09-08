@@ -7,12 +7,13 @@ export default function AdminLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-40 bg-card/95 backdrop-blur-sm">
+    <div className="relative min-h-screen bg-background">
+      <div aria-hidden className="brand-paper-field pointer-events-none fixed inset-0 z-0" />
+      <header className="sticky top-0 z-40 bg-background/92 backdrop-blur-sm">
         <CommandBar />
         <HorizontalNav />
       </header>
-      <main className="px-3 sm:px-4 py-5 max-w-[1600px] mx-auto">{children}</main>
+      <main className="relative z-10 px-3 sm:px-4 py-6 max-w-[1600px] mx-auto">{children}</main>
     </div>
   );
 }

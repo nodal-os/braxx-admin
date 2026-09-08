@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { HAVOK } from "@/lib/brand/ink";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -17,22 +18,21 @@ export default function LoginPage() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="space-y-2 text-center">
-        <div className="flex items-center justify-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-foreground">
-            <span className="text-xs font-bold text-background tracking-wider">BX</span>
-          </div>
-        </div>
-        <h1 className="text-lg font-semibold tracking-wide text-foreground">BRAXX</h1>
-        <p className="text-xs text-muted-foreground">Sign in to your Command Center</p>
+        <h1 className="display text-2xl text-foreground">{HAVOK.name}</h1>
+        <p className="text-xs uppercase tracking-[0.16em] text-muted-foreground">
+          {HAVOK.product}
+        </p>
       </div>
 
       <div className="space-y-3">
         <div className="grid gap-1.5">
-          <Label htmlFor="email" className="text-xs">Email</Label>
+          <Label htmlFor="email" className="text-xs">
+            Email
+          </Label>
           <Input
             id="email"
             type="email"
-            placeholder="you@braxxusa.com"
+            placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="h-9 text-sm"
@@ -40,11 +40,13 @@ export default function LoginPage() {
           />
         </div>
         <div className="grid gap-1.5">
-          <Label htmlFor="password" className="text-xs">Password</Label>
+          <Label htmlFor="password" className="text-xs">
+            Password
+          </Label>
           <Input
             id="password"
             type="password"
-            placeholder="••••••••"
+            placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="h-9 text-sm"
@@ -53,8 +55,12 @@ export default function LoginPage() {
         </div>
       </div>
 
-      <Button type="submit" className="w-full h-9 text-sm">Sign in</Button>
-      <p className="text-[11px] text-center text-muted-foreground">Project Silo v0.2.0</p>
+      <Button type="submit" className="w-full h-9 text-sm">
+        Sign in
+      </Button>
+      <p className="text-[11px] text-center text-muted-foreground">
+        Auth is not wired. This door opens the empty Command Center.
+      </p>
     </form>
   );
 }
